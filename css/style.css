@@ -71,7 +71,7 @@ p {
   color: #ffb74d;
 }
 #showcase {
-  background-image: url("/img/cover2.jpg");
+  background-image: url("../img/cover.jpg");
   max-width: 100%;
   height: 600px;
   background-position: center;
