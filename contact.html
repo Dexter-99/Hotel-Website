@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
   </head>
@@ -64,39 +69,30 @@
               rows="10"
             ></textarea>
           </div>
-          <input type="submit" value="Submit" class="btn1" style="width:10%" />
+          <input type="submit" value="Submit" class="btn1"/>
         </form>
       </div>
     </section>
-    <section>
-      <div id="info">
-        <div class="div-1">
-          <div class="content1">
-            <i id="icon" class="material-icons">location_on</i>
-            <h3>Location</h3>
-            <p>50 Main-st,Mountain View,California</p>
-          </div>
+    <section id="info">
+        <div class="box bg-secondary">
+          <i class="material-icons">location_on</i>
+          <h3>Location</h3>
+          <p>50 Main-st,Mountain View,California</p>
         </div>
-        <div class="div-2">
-          <div class="content1">
-            <i class="material-icons">phone</i>
-            <h3>Phone Number</h3>
-            <p>235-444-699</p>
-          </div>
+        <div class="box ">
+          <i class="material-icons">phone</i>
+          <h3>Phone Number</h3>
+          <p>235-444-699</p>
         </div>
-        <div class="div-3">
-          <div class="content1">
-            <i class="material-icons">email</i>
-            <h3>Email Address</h3>
-            <p>frontdesk@raviga.co</p>
-          </div>
+        <div class="box bg-secondary">
+          <i class="material-icons">email</i>
+          <h3>Email Address</h3>
+          <p>frontdesk@raviga.co</p>
         </div>
-      </div>
     </section>
-    <footer>
-      <div id="foot">
+    <div class="clr"></div>
+    <footer id="foot">
         <p>Hotel Raviga &copy;2019,All Rights Reserved</p>
-      </div>
     </footer>
   </body>
 </html>

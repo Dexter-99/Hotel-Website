@@ -14,11 +14,6 @@ body {
   overflow: auto;
   padding: 0px 10px;
 }
-#container-about {
-  padding: 20px 0px;
-  width: 100%;
-  height: 400px;
-}
 #container-about2 {
   margin: auto;
   padding: 0px 20px;
@@ -44,10 +39,9 @@ p {
 }
 #navbar h1 {
   float: left;
-  padding: 20px 0;
-}
-.logo a {
-  font-size: 40px;
+  text-shadow: 3px 2px grey;
+  font-size: 30px;
+  padding-top: 20px;
 }
 #navbar ul {
   float: right;
@@ -58,8 +52,7 @@ p {
 }
 #navbar ul li a {
   display: block;
-  font-size: 20px;
-  padding: 24px;
+  padding: 20px;
   text-align: center;
 }
 #navbar a {
@@ -71,7 +64,7 @@ p {
   color: #ffb74d;
 }
 #showcase {
-  background-image: url("../img/cover.jpg");
+  background-image: url("/img/cover.jpg");
   max-width: 100%;
   height: 600px;
   background-position: center;
@@ -104,7 +97,7 @@ p {
   line-height: 1em;
 }
 .btn1 {
-  padding: 12px;
+  padding: 12px 20px;
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -135,36 +128,31 @@ p {
   background-color: #333;
 }
 #info {
-  max-width: 100%;
-  height: 300px;
+  width: 100%;
 }
-#info .div-1 {
+.box {
   background-color: #fff;
   float: left;
-  width: 33%;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
   height: inherit;
 }
-#info .div-2 {
+.bg-secondary {
   background-color: #ffb74d;
-  float: left;
-  width: 33%;
-  height: inherit;
 }
-#info .div-3 {
-  background-color: #fff;
-  float: left;
-  width: 33%;
-  height: inherit;
+i.material-icons {
+  font-size: 60px;
+}
+.clr {
+  clear: both;
 }
 #foot {
   background-color: #263238;
   width: 100%;
-  height: 70px;
-  text-align: center;
-}
-#foot p {
   color: white;
-  padding: 20px 0px;
+  padding: 20px;
+  text-align: center;
 }
 .content {
   text-align: center;
@@ -188,19 +176,16 @@ p {
   color: #ffffff;
   background-color: #616161;
 }
-#info .content1 {
-  text-align: center;
-  padding: 60px 20px;
-}
-.content1 .material-icons {
-  font-size: 60px;
+#container-about {
+  padding: 20px 0px;
+  width: 100%;
+  overflow: auto;
+  height: 400px;
 }
 #about_contain1 {
   width: 40%;
-  height: 350px;
   text-align: center;
   float: left;
-  overflow-y: auto;
   background-color: white;
 }
 #about_contain2 {
@@ -224,26 +209,23 @@ p {
   line-height: 1.4em;
 }
 #review {
-  height:600px;
-  background-size:cover;
+  height: 100%;
+  background-size: cover;
   background-image: url("../img/review.jpg");
 }
-.rev_div{
-  border-radius:5px;
+.rev_div {
+  border-radius: 5px;
   opacity: 0.9;
-  padding:20px;
-  margin:40px;
-  min-height:130px;
+  padding: 20px;
+  margin: 40px;
+  min-height: 130px;
   background: #ffb74d;
 }
-#review .rev_div img{
+#review .rev_div img {
   width: 100px;
-  float:left;
-  border-radius:50%;
-  margin-right:10px;
-}
-.test-align{
-  padding:15px 0;
+  float: left;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 #contact {
   padding: 20px;
